@@ -81,7 +81,13 @@
 }
 
 /* esercizio 8 */
-
+.ex-8-img{
+  transition: all 3s;
+}
+.ex-8-img:hover {
+  border-radius: 15px;
+  filter: grayscale(95%) saturate(7);
+}
 
 .ex-9-img {
   margin: 50px 100px;
