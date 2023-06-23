@@ -73,7 +73,12 @@
 }
 
 /* esercizio 7 */
-
+.ex-7-img{
+  transition: filter 3s;
+}
+.ex-7-img:hover {
+  filter: grayscale(100%);
+}
 
 /* esercizio 8 */
 
